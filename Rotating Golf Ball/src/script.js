@@ -35,6 +35,7 @@ scene.add(sphere)
 
 // Lights
 
+
 const pointLight = new THREE.PointLight(0x00000, 2)
 pointLight.position.x = 0
 pointLight.position.y = 0

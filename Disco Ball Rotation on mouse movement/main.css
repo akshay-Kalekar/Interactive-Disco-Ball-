@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+
+}
+body{
+    overflow-x: hidden;
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+
+}
+.container{
+    height: 100vh;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap:10vh
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+.img1,.img2{
+    height: 100%;
+}
+h1{
+    font-size: 2vw;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+/* //style of image */
+.styles{
+    height: 10vh;
+    display: flex;
+
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
