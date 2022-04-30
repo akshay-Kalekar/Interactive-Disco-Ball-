@@ -3,7 +3,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { WireframeGeometry } from "three";
 const textureLoader = new THREE.TextureLoader(),
-  normalTexture = textureLoader.load("/texture/disco.png"),
+  normalTexture = textureLoader.load("./texture/disco.png"),
   scene = new THREE.Scene(),
   geometry = new THREE.SphereBufferGeometry(0.5, 50, 50),
   material = new THREE.MeshStandardMaterial();
